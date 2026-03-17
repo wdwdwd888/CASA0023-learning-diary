@@ -1,0 +1,11 @@
+# Week 2 – Portfolio, Xaringan and Quarto
+
+This week focused less on remote sensing concepts and more on the technical setup required for the module portfolio. The session introduced Xaringan for creating presentations, Quarto for building a structured learning diary, and the use of Git and GitHub for publishing work online.
+
+One of the main things I learned this week is that this module is not only about analysing remotely sensed data, but also about how results and reflections are organised and presented. The idea of creating a Quarto book as a learning diary means that the work is cumulative and structured, rather than a series of disconnected submissions. This changed how I think about the assignment, as it requires both technical and organisational skills.
+
+The introduction to Xaringan also showed a different way of creating presentations using RMarkdown. Although the syntax is relatively simple, it requires understanding how code, text, and formatting work together. Compared to traditional tools like PowerPoint, this approach is more flexible and reproducible, but also more challenging to set up initially.
+
+I also found the discussion of Git and GitHub particularly important. The workflow of adding, committing, and pushing changes means that progress is tracked over time. This links directly to the assessment requirement that weekly updates must be visible through commit history. It made me realise that managing files and maintaining a clear structure is an essential part of the module, not just a background task.
+
+Overall, Week 2 was more technical and setup-focused than Week 1, but it provided a foundation for how the rest of the module will be organised. I now have a clearer understanding of how my learning diary, presentations, and code will be integrated into a single portfolio. My next step is to complete the Xaringan presentation and continue building the structure of my online learning diary.
