@@ -1,0 +1,78 @@
+---
+title: "Week 4 – Remote Sensing and Policy (Urban Event Monitoring)"
+format: html
+---
+
+## Overview
+
+This week explored how remote sensing can support policy and decision-making, particularly in dynamic urban contexts. The focus shifted from long-term environmental analysis to short-term event monitoring using Earth Observation data.
+
+## Case Study: Urban Change Monitoring in Tehran
+
+This practical investigates urban change in Tehran using Sentinel-1 SAR data. Instead of focusing on long-term urban expansion, the analysis aims to identify short-term anomalies in the built environment that may relate to urban events, disruptions, or structural changes.
+
+Such monitoring is particularly relevant in contexts where rapid situational awareness is required and ground-based data is limited.
+
+## Remote Sensing Data
+
+Sentinel-1 Synthetic Aperture Radar (SAR) data was used in this analysis.
+
+SAR data is suitable because:
+
+-   it operates independently of weather and daylight conditions\
+-   it captures structural characteristics of urban surfaces\
+-   it enables reliable change detection between time periods
+
+## Method
+
+Two time periods were selected, and mean SAR images were generated for each period. A difference image was then calculated to detect changes in backscatter.
+
+A threshold was applied to extract areas of significant change, and small isolated pixels were removed to reduce noise. The final output highlights areas of strong SAR change across the city.
+
+## Results
+
+![Tehran SAR Change Detection](week4.png)
+
+**Figure 1.** Sentinel-1 SAR change detection in Tehran, highlighting areas of strong urban surface change between two time periods.
+
+The highlighted areas (yellow) represent locations with significant changes in SAR backscatter. These may indicate structural changes such as building damage, construction activity, or other urban surface disturbances.
+
+## Application to Policy
+
+This approach supports urban policy and decision-making in several ways:
+
+-   rapid identification of areas experiencing change\
+-   support for emergency response and damage assessment\
+-   improved situational awareness in dynamic urban environments
+
+Rather than focusing on long-term sustainability planning, this approach is more relevant to crisis monitoring and short-term decision support.
+
+## Link to Policy Frameworks
+
+This work aligns more closely with disaster risk reduction and crisis-response frameworks.
+
+In particular, it supports the Sendai Framework for Disaster Risk Reduction by enabling rapid assessment of urban change and improving decision-making during emergencies.
+
+It also has relevance for humanitarian applications, where remote sensing provides critical spatial information in data-scarce environments.
+
+While not directly targeting sustainability goals, it may indirectly contribute to SDG 11 by supporting urban resilience and recovery planning.
+
+## Reflection
+
+This week expanded my understanding of remote sensing applications beyond traditional environmental monitoring.
+
+I found it particularly valuable that SAR data can detect structural changes in urban areas, making it useful for dynamic and complex situations.
+
+However, one limitation is that SAR change detection identifies anomalous surface changes but cannot determine the exact cause without additional data or validation.
+
+## Practical Reflection
+
+The practical demonstrated how change detection workflows can be implemented using real satellite data.
+
+It highlighted the importance of data selection, filtering, and thresholding in producing meaningful outputs.
+
+## Future Application
+
+This approach could be extended by integrating additional datasets, such as optical imagery or higher-resolution data, to improve interpretation.
+
+It has strong potential for applications in disaster response, urban resilience, and real-time monitoring.
