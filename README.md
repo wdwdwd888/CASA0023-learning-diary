@@ -7,3 +7,4 @@ This repository contains my weekly learning diary entries for CASA0023.
 - [Week 1 – Getting Started with Remote Sensing](week1.md)
 - [Week 2 – Portfolio, Xaringan and Quarto](week2.html)
 - [Week 3 – Corrections and Enhancements](week3.html)
+- [Week 4 – Remote Sensing and Policy (Urban Event Monitoring)](week4.html)  
