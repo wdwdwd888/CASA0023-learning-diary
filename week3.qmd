@@ -1,0 +1,52 @@
+---
+title: "Week 3 – Corrections and Enhancements"
+format: html
+---
+
+## Overview
+
+This week focused on atmospheric correction, geometric correction, and image enhancement techniques in remote sensing. The lecture explained how raw satellite data is affected by the atmosphere and how it needs to be processed before analysis.
+
+## Atmospheric Correction
+
+I learned that raw satellite images are not purely showing the Earth's surface. The atmosphere affects the signal through scattering and absorption.
+
+The Dark Object Subtraction (DOS) method assumes that the darkest pixels should be close to zero. By subtracting this value, we can reduce atmospheric effects and estimate surface reflectance.
+
+This helped me understand the difference between Digital Number (DN), radiance, and reflectance.
+
+## Image Merging
+
+Satellite images are divided into tiles, meaning one image often cannot cover the whole study area. Therefore, multiple images need to be merged together.
+
+This requires selecting images with:
+
+-   similar dates
+-   low cloud cover
+
+This made me realise that data preparation is an important step in remote sensing.
+
+## Image Enhancement
+
+Several enhancement methods were introduced:
+
+-   NDVI (vegetation index)
+-   Filtering (smoothing or sharpening)
+-   Texture analysis (GLCM)
+-   PCA (reducing data dimensions)
+
+These methods help highlight different features in the data.
+
+## Reflection
+
+This week helped me understand that remote sensing is not just about viewing images, but about processing data. Different methods can change how we interpret the same dataset.
+
+I also realised that choosing the right method depends on the research goal.
+
+## Future Application
+
+These techniques will be useful in future work, especially for:
+
+-   flood mapping
+-   urban analysis
+-   environmental monitoring
