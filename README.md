@@ -14,6 +14,8 @@ Each week documents key concepts, practical work, and reflections on the use of 
 - [Week 4 – Remote Sensing and Policy (Urban Event Monitoring)](week4.html)
 - [Week 5 – Temperature and Urban Heat](week5.html)
 - [Week 6 – Google Earth Engine and Image Processing](week6.html)
+- [week 7 - Image Classification](week7.html)
+
 ---
 
 ## About
