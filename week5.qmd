@@ -24,7 +24,7 @@ A cloud mask was applied to remove low-quality pixels, and a median composite wa
 
 ## Results
 
-![Tehran LST](images/week5.png)
+![Tehran LST](week5.png)
 
 **Figure 1.** Summer land surface temperature (LST) in Tehran derived from Landsat 8/9 data.
 
