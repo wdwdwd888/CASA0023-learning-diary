@@ -15,6 +15,7 @@ Each week documents key concepts, practical work, and reflections on the use of 
 - [Week 5 – Temperature and Urban Heat](week5.html)
 - [Week 6 – Google Earth Engine and Image Processing](week6.html)
 - [week 7 - Image Classification](week7.html)
+- [week 8 - Advanced Classification](week8.html)
 
 ---
 
