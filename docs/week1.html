@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Week 6 – Google Earth Engine and Basic Image Analysis</title>
+<title>Week 1 – Getting Started with Remote Sensing – CASA0023 Learning Diary</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,30 +23,160 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="week6_files/libs/clipboard/clipboard.min.js"></script>
-<script src="week6_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="week6_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="week6_files/libs/quarto-html/popper.min.js"></script>
-<script src="week6_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="week6_files/libs/quarto-html/anchor.min.js"></script>
-<link href="week6_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="week6_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="week6_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="week6_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="week6_files/libs/bootstrap/bootstrap-81267100e462c21b3d6c0d5bf76a3417.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./week2.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-485d01fc63b59abcd3ee1bf1e8e2748d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
 
 </head>
 
-<body class="fullcontent quarto-light">
+<body class="nav-sidebar floating quarto-light">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week1.html"><span class="chapter-title">Week 1 – Getting Started with Remote Sensing</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">CASA0023 Learning Diary</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">CASA0023 Learning Diary</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week1.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Week 1 – Getting Started with Remote Sensing</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 2 – Portfolio, Xaringan and Quarto</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 3 – Corrections and Enhancements</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 4 – Remote Sensing and Policy (Urban Event Monitoring)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week5.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 5 – Temperature and Urban Heat</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 6 – Google Earth Engine and Basic Image Analysis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week7.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 7 – Image Classification</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week8.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Week 8 – Temperature and Sub-pixel Analysis</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#key-learning" id="toc-key-learning" class="nav-link" data-scroll-target="#key-learning">Key Learning</a></li>
+  <li><a href="#practical-insights" id="toc-practical-insights" class="nav-link" data-scroll-target="#practical-insights">Practical Insights</a></li>
+  <li><a href="#methods-introduced" id="toc-methods-introduced" class="nav-link" data-scroll-target="#methods-introduced">Methods Introduced</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">Reflection</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 6 – Google Earth Engine and Basic Image Analysis</h1>
+<h1 class="title"><span class="chapter-title">Week 1 – Getting Started with Remote Sensing</span></h1>
 </div>
 
 
@@ -65,71 +195,53 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This week introduced Google Earth Engine (GEE) as a cloud-based platform for remote sensing analysis. The focus was on learning the basic workflow of loading, filtering, compositing, clipping, and visualising satellite imagery.</p>
+<p>This week introduced the basic foundations of remote sensing through both the lecture and the practical. The lecture focused on what remote sensing is, how data are collected, the main observation platforms, key satellite data sources, and some common applications. The practical extended this by introducing a basic workflow for working with remotely sensed data, including downloading Sentinel and Landsat imagery, exploring image products in QGIS and SNAP, and beginning simple raster processing and comparison.</p>
 </section>
-<section id="key-concepts" class="level2">
-<h2 class="anchored" data-anchor-id="key-concepts">Key Concepts</h2>
-<p>Unlike previous practicals that relied on local processing, GEE allows satellite data to be processed remotely on Google’s servers. This makes it easier to work with large Earth observation datasets efficiently.</p>
-<p>The main concepts covered this week included:</p>
+<section id="key-learning" class="level2">
+<h2 class="anchored" data-anchor-id="key-learning">Key Learning</h2>
+<p>One of the most important insights from this week is that remote sensing is more than simply viewing satellite imagery. It is a structured process involving sensors, platforms, data products, resolution, and analytical workflows. Even at an introductory level, decisions such as study area selection, cloud cover thresholds, and data source choice significantly influence the outputs.</p>
+</section>
+<section id="practical-insights" class="level2">
+<h2 class="anchored" data-anchor-id="practical-insights">Practical Insights</h2>
+<p>The practical session helped translate theory into application. By working with Sentinel and Landsat data, I began to understand that different sensors have different strengths and limitations. Sentinel offers higher spatial detail, while Landsat provides a longer temporal archive, which is valuable for historical analysis.</p>
+<p>I also compared different software environments:</p>
 <ul>
-<li>loading image collections</li>
-<li>filtering by date, cloud cover, and location</li>
-<li>creating composite images</li>
-<li>clipping data to a study area</li>
-<li>applying simple band math such as NDVI</li>
+<li><strong>QGIS</strong> – intuitive for visualisation and basic processing<br>
+</li>
+<li><strong>SNAP</strong> – specialised for remote sensing workflows<br>
+</li>
+<li><strong>R</strong> – suitable for statistical analysis and reproducibility</li>
 </ul>
+<p>This highlighted how software choice can shape analytical approaches.</p>
 </section>
-<section id="method" class="level2">
-<h2 class="anchored" data-anchor-id="method">Method</h2>
-<p>In this practical, Landsat 8 surface reflectance data was used to analyse Tehran.</p>
-<p>The workflow involved:</p>
+<section id="methods-introduced" class="level2">
+<h2 class="anchored" data-anchor-id="methods-introduced">Methods Introduced</h2>
+<p>This week introduced early-stage workflow steps, including:</p>
 <ul>
-<li>filtering imagery by date and cloud cover</li>
-<li>generating a median composite</li>
-<li>clipping the imagery to the study area</li>
-<li>visualising the RGB composite</li>
-<li>calculating NDVI using the near-infrared and red bands</li>
+<li>data sourcing (Sentinel, Landsat)<br>
+</li>
+<li>filtering by cloud cover and date<br>
+</li>
+<li>basic raster visualisation<br>
+</li>
+<li>introduction to spectral signatures<br>
+</li>
+<li>simple statistical comparisons</li>
 </ul>
-</section>
-<section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">Results</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="week6_rgb.png" class="img-fluid figure-img"></p>
-<figcaption>Tehran RGB</figcaption>
-</figure>
-</div>
-<p><strong>Figure 1.</strong> Median Landsat RGB composite of Tehran clipped to the study area.</p>
-<p>The RGB composite provides a clear overview of the city’s urban structure and surrounding mountainous landscape.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="week6_ndvi.png" class="img-fluid figure-img"></p>
-<figcaption>Tehran NDVI</figcaption>
-</figure>
-</div>
-<p><strong>Figure 2.</strong> NDVI derived from Landsat data showing vegetation distribution across Tehran.</p>
-<p>The NDVI image highlights greener areas within and around the city, making it easier to identify vegetation compared with the RGB image alone.</p>
-</section>
-<section id="application" class="level2">
-<h2 class="anchored" data-anchor-id="application">Application</h2>
-<p>This workflow demonstrates how GEE can support rapid urban environmental analysis. NDVI is particularly useful for identifying vegetation cover, which can support studies of green space, urban ecology, and environmental planning.</p>
 </section>
 <section id="reflection" class="level2">
 <h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
-<p>This week helped me understand the logic of working with image collections in GEE. Compared with previous workflows, I found GEE efficient for loading and processing large datasets.</p>
-<p>It was also useful to see how simple band math can transform a basic satellite image into a more interpretable environmental indicator.</p>
+<p>A key takeaway is that remote sensing moves beyond visual interpretation towards quantitative analysis. Even at this stage, the idea of distinguishing land cover types (e.g.&nbsp;vegetation, water, built-up areas) using spectral information became clear.</p>
+<p>The introduction to GitHub and <code>.gitignore</code> also highlighted the importance of workflow management when dealing with large datasets. This is particularly relevant for maintaining a structured and reproducible learning diary.</p>
 </section>
-<section id="limitations" class="level2">
-<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
-<p>Although NDVI is useful for mapping vegetation, it does not capture all aspects of environmental quality. It is also sensitive to the time period selected and the quality of the input imagery.</p>
-</section>
-<section id="future-application" class="level2">
-<h2 class="anchored" data-anchor-id="future-application">Future Application</h2>
-<p>This workflow could be extended to more advanced analysis, including classification, change detection, or linking vegetation patterns to temperature and urban heat.</p>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Overall, Week 1 provided a structured foundation for remote sensing. It reframed my understanding from simply observing satellite imagery to engaging with a full analytical workflow involving data selection, processing, software environments, and interpretation.</p>
+
+
 </section>
 
-</main>
-<!-- /main column -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -529,6 +641,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="CASA0023 Learning Diary">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">CASA0023 Learning Diary</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./week2.html" class="pagination-link" aria-label="Week 2 – Portfolio, Xaringan and Quarto">
+        <span class="nav-page-text"><span class="chapter-title">Week 2 – Portfolio, Xaringan and Quarto</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

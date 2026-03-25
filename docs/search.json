@@ -558,5 +558,65 @@
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 8 – Temperature and Sub-pixel Analysis</span>"
     ]
+  },
+  {
+    "objectID": "week1.html",
+    "href": "week1.html",
+    "title": "Week 1 – Getting Started with Remote Sensing",
+    "section": "",
+    "text": "Overview\nThis week introduced the basic foundations of remote sensing through both the lecture and the practical. The lecture focused on what remote sensing is, how data are collected, the main observation platforms, key satellite data sources, and some common applications. The practical extended this by introducing a basic workflow for working with remotely sensed data, including downloading Sentinel and Landsat imagery, exploring image products in QGIS and SNAP, and beginning simple raster processing and comparison.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 – Getting Started with Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#key-learning",
+    "href": "week1.html#key-learning",
+    "title": "Week 1 – Getting Started with Remote Sensing",
+    "section": "Key Learning",
+    "text": "Key Learning\nOne of the most important insights from this week is that remote sensing is more than simply viewing satellite imagery. It is a structured process involving sensors, platforms, data products, resolution, and analytical workflows. Even at an introductory level, decisions such as study area selection, cloud cover thresholds, and data source choice significantly influence the outputs.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 – Getting Started with Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#practical-insights",
+    "href": "week1.html#practical-insights",
+    "title": "Week 1 – Getting Started with Remote Sensing",
+    "section": "Practical Insights",
+    "text": "Practical Insights\nThe practical session helped translate theory into application. By working with Sentinel and Landsat data, I began to understand that different sensors have different strengths and limitations. Sentinel offers higher spatial detail, while Landsat provides a longer temporal archive, which is valuable for historical analysis.\nI also compared different software environments:\n\nQGIS – intuitive for visualisation and basic processing\n\nSNAP – specialised for remote sensing workflows\n\nR – suitable for statistical analysis and reproducibility\n\nThis highlighted how software choice can shape analytical approaches.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 – Getting Started with Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#methods-introduced",
+    "href": "week1.html#methods-introduced",
+    "title": "Week 1 – Getting Started with Remote Sensing",
+    "section": "Methods Introduced",
+    "text": "Methods Introduced\nThis week introduced early-stage workflow steps, including:\n\ndata sourcing (Sentinel, Landsat)\n\nfiltering by cloud cover and date\n\nbasic raster visualisation\n\nintroduction to spectral signatures\n\nsimple statistical comparisons",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 – Getting Started with Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#reflection",
+    "href": "week1.html#reflection",
+    "title": "Week 1 – Getting Started with Remote Sensing",
+    "section": "Reflection",
+    "text": "Reflection\nA key takeaway is that remote sensing moves beyond visual interpretation towards quantitative analysis. Even at this stage, the idea of distinguishing land cover types (e.g. vegetation, water, built-up areas) using spectral information became clear.\nThe introduction to GitHub and .gitignore also highlighted the importance of workflow management when dealing with large datasets. This is particularly relevant for maintaining a structured and reproducible learning diary.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 – Getting Started with Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#conclusion",
+    "href": "week1.html#conclusion",
+    "title": "Week 1 – Getting Started with Remote Sensing",
+    "section": "Conclusion",
+    "text": "Conclusion\nOverall, Week 1 provided a structured foundation for remote sensing. It reframed my understanding from simply observing satellite imagery to engaging with a full analytical workflow involving data selection, processing, software environments, and interpretation.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 – Getting Started with Remote Sensing</span>"
+    ]
   }
 ]

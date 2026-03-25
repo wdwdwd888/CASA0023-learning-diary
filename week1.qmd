@@ -1,0 +1,41 @@
+# Week 1 – Getting Started with Remote Sensing
+
+## Overview
+
+This week introduced the basic foundations of remote sensing through both the lecture and the practical. The lecture focused on what remote sensing is, how data are collected, the main observation platforms, key satellite data sources, and some common applications. The practical extended this by introducing a basic workflow for working with remotely sensed data, including downloading Sentinel and Landsat imagery, exploring image products in QGIS and SNAP, and beginning simple raster processing and comparison.
+
+## Key Learning
+
+One of the most important insights from this week is that remote sensing is more than simply viewing satellite imagery. It is a structured process involving sensors, platforms, data products, resolution, and analytical workflows. Even at an introductory level, decisions such as study area selection, cloud cover thresholds, and data source choice significantly influence the outputs.
+
+## Practical Insights
+
+The practical session helped translate theory into application. By working with Sentinel and Landsat data, I began to understand that different sensors have different strengths and limitations. Sentinel offers higher spatial detail, while Landsat provides a longer temporal archive, which is valuable for historical analysis.
+
+I also compared different software environments:
+
+-   **QGIS** – intuitive for visualisation and basic processing\
+-   **SNAP** – specialised for remote sensing workflows\
+-   **R** – suitable for statistical analysis and reproducibility
+
+This highlighted how software choice can shape analytical approaches.
+
+## Methods Introduced
+
+This week introduced early-stage workflow steps, including:
+
+-   data sourcing (Sentinel, Landsat)\
+-   filtering by cloud cover and date\
+-   basic raster visualisation\
+-   introduction to spectral signatures\
+-   simple statistical comparisons
+
+## Reflection
+
+A key takeaway is that remote sensing moves beyond visual interpretation towards quantitative analysis. Even at this stage, the idea of distinguishing land cover types (e.g. vegetation, water, built-up areas) using spectral information became clear.
+
+The introduction to GitHub and `.gitignore` also highlighted the importance of workflow management when dealing with large datasets. This is particularly relevant for maintaining a structured and reproducible learning diary.
+
+## Conclusion
+
+Overall, Week 1 provided a structured foundation for remote sensing. It reframed my understanding from simply observing satellite imagery to engaging with a full analytical workflow involving data selection, processing, software environments, and interpretation.
