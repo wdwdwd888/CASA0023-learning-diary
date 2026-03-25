@@ -6,14 +6,13 @@ This learning diary presents my weekly engagement with remote sensing concepts, 
 
 Each chapter corresponds to one week of the module:
 
--   Week 2: Portfolio and Quarto\
--   Week 3: Enhancements\
--   Week 4: Urban Monitoring\
--   Week 5: Urban Heat\
--   Week 6: Google Earth Engine\
--   Week 7: Image Classification\
--   Week 8: Advanced Classification
-
-------------------------------------------------------------------------
+- Week 1: Getting Started with Remote Sensing
+- Week 2: Portfolio and Quarto
+- Week 3: Corrections and Enhancements
+- Week 4: Urban Monitoring
+- Week 5: Urban Heat
+- Week 6: Google Earth Engine
+- Week 7: Image Classification
+- Week 8: Advanced Classification
 
 This diary combines practical outputs, critical reflection, and real-world applications of Earth Observation.
