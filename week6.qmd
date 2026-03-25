@@ -33,13 +33,13 @@ The workflow involved:
 
 ## Results
 
-![Tehran RGB](week6_rgb.png)
+![Tehran RGB](image/week6_rgb.png)
 
 **Figure 1.** Median Landsat RGB composite of Tehran clipped to the study area.
 
 The RGB composite provides a clear overview of the city’s urban structure and surrounding mountainous landscape.
 
-![Tehran NDVI](week6_ndvi.png)
+![Tehran NDVI](image/week6_ndvi.png)
 
 **Figure 2.** NDVI derived from Landsat data showing vegetation distribution across Tehran.
 

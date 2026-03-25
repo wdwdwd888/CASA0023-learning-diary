@@ -31,7 +31,7 @@ A threshold was applied to extract areas of significant change, and small isolat
 
 ## Results
 
-![Tehran SAR Change Detection](week4.png)
+![Tehran SAR Change Detection](image/week4.png)
 
 **Figure 1.** Sentinel-1 SAR change detection in Tehran, highlighting areas of strong urban surface change between two time periods.
 

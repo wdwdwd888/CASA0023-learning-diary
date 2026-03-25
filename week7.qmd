@@ -29,7 +29,7 @@ The workflow included:
 
 ## Results
 
-![Classification Map](week7_classification.png)
+![Classification Map](image/week7_classification.png)
 
 **Figure 1.** Land cover classification of Tehran using Random Forest (urban = red, vegetation = green, water = blue).
 

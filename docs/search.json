@@ -1,0 +1,562 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CASA0023 Learning Diary",
+    "section": "",
+    "text": "CASA0023 Learning Diary\nThis learning diary presents my weekly engagement with remote sensing concepts, practical workflows, and reflections.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>CASA0023 Learning Diary</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#structure",
+    "href": "index.html#structure",
+    "title": "CASA0023 Learning Diary",
+    "section": "Structure",
+    "text": "Structure\nEach chapter corresponds to one week of the module:\n\nWeek 2: Portfolio and Quarto\n\nWeek 3: Enhancements\n\nWeek 4: Urban Monitoring\n\nWeek 5: Urban Heat\n\nWeek 6: Google Earth Engine\n\nWeek 7: Image Classification\n\nWeek 8: Advanced Classification\n\n\nThis diary combines practical outputs, critical reflection, and real-world applications of Earth Observation.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>CASA0023 Learning Diary</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html",
+    "href": "week2.html",
+    "title": "Week 2 – Portfolio, Xaringan and Quarto",
+    "section": "",
+    "text": "Overview\nThis week focused on the technical setup required for the module portfolio rather than on remote sensing analysis itself. The practical introduced Xaringan for building presentations, Quarto for creating a structured online learning diary, and GitHub Pages for publishing work online.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 2 – Portfolio, Xaringan and Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html#what-i-learned",
+    "href": "week2.html#what-i-learned",
+    "title": "Week 2 – Portfolio, Xaringan and Quarto",
+    "section": "What I Learned",
+    "text": "What I Learned\nOne of the most important things I learned this week is that this module is not only about analysing remotely sensed data, but also about how that work is organised, presented, and shared. The idea of using a Quarto book means that the learning diary is cumulative and structured, rather than a set of unrelated weekly notes.\nThe practical also introduced Xaringan as a way of creating presentations using RMarkdown syntax. This was different from using PowerPoint, because content, layout, and formatting are controlled through code and markdown. Although this seemed more technical at first, it also showed how presentation and reproducibility can be combined.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 2 – Portfolio, Xaringan and Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html#github-and-workflow",
+    "href": "week2.html#github-and-workflow",
+    "title": "Week 2 – Portfolio, Xaringan and Quarto",
+    "section": "GitHub and Workflow",
+    "text": "GitHub and Workflow\nAnother key part of this week was understanding the role of Git and GitHub in the module workflow. The process of adding, committing, and pushing work means that progress is recorded over time, which is important because the assessment requires regular weekly updates. This made me realise that organising files and maintaining a clear project structure is an important part of remote sensing practice, not just a background task.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 2 – Portfolio, Xaringan and Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html#reflection",
+    "href": "week2.html#reflection",
+    "title": "Week 2 – Portfolio, Xaringan and Quarto",
+    "section": "Reflection",
+    "text": "Reflection\nCompared with Week 1, this week felt less focused on image analysis and more focused on infrastructure. At first, setting up Quarto, Xaringan, and GitHub Pages felt technical and slightly overwhelming. However, it became clear that these tools are central to the module because they provide a way to document progress, publish outputs, and connect code with communication.\nThis week changed how I think about the learning diary. I now understand it not simply as a written reflection, but as part of a digital portfolio that develops over time.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 2 – Portfolio, Xaringan and Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html#future-application",
+    "href": "week2.html#future-application",
+    "title": "Week 2 – Portfolio, Xaringan and Quarto",
+    "section": "Future Application",
+    "text": "Future Application\nThe skills introduced this week will be useful throughout the rest of the module. In particular, Quarto will help structure the diary, GitHub Pages will support online publication, and Xaringan provides a way to communicate ideas more dynamically. These tools seem especially useful for future work where analysis, writing, and presentation need to be combined in one workflow.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 2 – Portfolio, Xaringan and Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "week3.html",
+    "href": "week3.html",
+    "title": "Week 3 – Corrections and Enhancements",
+    "section": "",
+    "text": "Overview\nThis week focused on atmospheric correction, geometric correction, and image enhancement techniques in remote sensing. The lecture explained how raw satellite data is affected by the atmosphere and how it needs to be processed before analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 – Corrections and Enhancements</span>"
+    ]
+  },
+  {
+    "objectID": "week3.html#atmospheric-correction",
+    "href": "week3.html#atmospheric-correction",
+    "title": "Week 3 – Corrections and Enhancements",
+    "section": "Atmospheric Correction",
+    "text": "Atmospheric Correction\nI learned that raw satellite images are not purely showing the Earth’s surface. The atmosphere affects the signal through scattering and absorption.\nThe Dark Object Subtraction (DOS) method assumes that the darkest pixels should be close to zero. By subtracting this value, we can reduce atmospheric effects and estimate surface reflectance.\nThis helped me understand the difference between Digital Number (DN), radiance, and reflectance.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 – Corrections and Enhancements</span>"
+    ]
+  },
+  {
+    "objectID": "week3.html#image-merging",
+    "href": "week3.html#image-merging",
+    "title": "Week 3 – Corrections and Enhancements",
+    "section": "Image Merging",
+    "text": "Image Merging\nSatellite images are divided into tiles, meaning one image often cannot cover the whole study area. Therefore, multiple images need to be merged together.\nThis requires selecting images with:\n\nsimilar dates\nlow cloud cover\n\nThis made me realise that data preparation is an important step in remote sensing.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 – Corrections and Enhancements</span>"
+    ]
+  },
+  {
+    "objectID": "week3.html#image-enhancement",
+    "href": "week3.html#image-enhancement",
+    "title": "Week 3 – Corrections and Enhancements",
+    "section": "Image Enhancement",
+    "text": "Image Enhancement\nSeveral enhancement methods were introduced:\n\nNDVI (vegetation index)\nFiltering (smoothing or sharpening)\nTexture analysis (GLCM)\nPCA (reducing data dimensions)\n\nThese methods help highlight different features in the data.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 – Corrections and Enhancements</span>"
+    ]
+  },
+  {
+    "objectID": "week3.html#reflection",
+    "href": "week3.html#reflection",
+    "title": "Week 3 – Corrections and Enhancements",
+    "section": "Reflection",
+    "text": "Reflection\nThis week helped me understand that remote sensing is not just about viewing images, but about processing data. Different methods can change how we interpret the same dataset.\nI also realised that choosing the right method depends on the research goal.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 – Corrections and Enhancements</span>"
+    ]
+  },
+  {
+    "objectID": "week3.html#future-application",
+    "href": "week3.html#future-application",
+    "title": "Week 3 – Corrections and Enhancements",
+    "section": "Future Application",
+    "text": "Future Application\nThese techniques will be useful in future work, especially for:\n\nflood mapping\nurban analysis\nenvironmental monitoring",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 3 – Corrections and Enhancements</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html",
+    "href": "week4.html",
+    "title": "Week 4 – Remote Sensing and Policy (Urban Event Monitoring)",
+    "section": "",
+    "text": "Overview\nThis week explored how remote sensing can support policy and decision-making, particularly in dynamic urban contexts. The focus shifted from long-term environmental analysis to short-term event monitoring using Earth Observation data.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4 – Remote Sensing and Policy (Urban Event Monitoring)</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#case-study-urban-change-monitoring-in-tehran",
+    "href": "week4.html#case-study-urban-change-monitoring-in-tehran",
+    "title": "Week 4 – Remote Sensing and Policy (Urban Event Monitoring)",
+    "section": "Case Study: Urban Change Monitoring in Tehran",
+    "text": "Case Study: Urban Change Monitoring in Tehran\nThis practical investigates urban change in Tehran using Sentinel-1 SAR data. Instead of focusing on long-term urban expansion, the analysis aims to identify short-term anomalies in the built environment that may relate to urban events, disruptions, or structural changes.\nSuch monitoring is particularly relevant in contexts where rapid situational awareness is required and ground-based data is limited.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4 – Remote Sensing and Policy (Urban Event Monitoring)</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#remote-sensing-data",
+    "href": "week4.html#remote-sensing-data",
+    "title": "Week 4 – Remote Sensing and Policy (Urban Event Monitoring)",
+    "section": "Remote Sensing Data",
+    "text": "Remote Sensing Data\nSentinel-1 Synthetic Aperture Radar (SAR) data was used in this analysis.\nSAR data is suitable because:\n\nit operates independently of weather and daylight conditions\n\nit captures structural characteristics of urban surfaces\n\nit enables reliable change detection between time periods",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4 – Remote Sensing and Policy (Urban Event Monitoring)</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#method",
+    "href": "week4.html#method",
+    "title": "Week 4 – Remote Sensing and Policy (Urban Event Monitoring)",
+    "section": "Method",
+    "text": "Method\nTwo time periods were selected, and mean SAR images were generated for each period. A difference image was then calculated to detect changes in backscatter.\nA threshold was applied to extract areas of significant change, and small isolated pixels were removed to reduce noise. The final output highlights areas of strong SAR change across the city.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4 – Remote Sensing and Policy (Urban Event Monitoring)</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#results",
+    "href": "week4.html#results",
+    "title": "Week 4 – Remote Sensing and Policy (Urban Event Monitoring)",
+    "section": "Results",
+    "text": "Results\n\n\n\nTehran SAR Change Detection\n\n\nFigure 1. Sentinel-1 SAR change detection in Tehran, highlighting areas of strong urban surface change between two time periods.\nThe highlighted areas (yellow) represent locations with significant changes in SAR backscatter. These may indicate structural changes such as building damage, construction activity, or other urban surface disturbances.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4 – Remote Sensing and Policy (Urban Event Monitoring)</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#application-to-policy",
+    "href": "week4.html#application-to-policy",
+    "title": "Week 4 – Remote Sensing and Policy (Urban Event Monitoring)",
+    "section": "Application to Policy",
+    "text": "Application to Policy\nThis approach supports urban policy and decision-making in several ways:\n\nrapid identification of areas experiencing change\n\nsupport for emergency response and damage assessment\n\nimproved situational awareness in dynamic urban environments\n\nRather than focusing on long-term sustainability planning, this approach is more relevant to crisis monitoring and short-term decision support.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4 – Remote Sensing and Policy (Urban Event Monitoring)</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#link-to-policy-frameworks",
+    "href": "week4.html#link-to-policy-frameworks",
+    "title": "Week 4 – Remote Sensing and Policy (Urban Event Monitoring)",
+    "section": "Link to Policy Frameworks",
+    "text": "Link to Policy Frameworks\nThis work aligns more closely with disaster risk reduction and crisis-response frameworks.\nIn particular, it supports the Sendai Framework for Disaster Risk Reduction by enabling rapid assessment of urban change and improving decision-making during emergencies.\nIt also has relevance for humanitarian applications, where remote sensing provides critical spatial information in data-scarce environments.\nWhile not directly targeting sustainability goals, it may indirectly contribute to SDG 11 by supporting urban resilience and recovery planning.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4 – Remote Sensing and Policy (Urban Event Monitoring)</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#reflection",
+    "href": "week4.html#reflection",
+    "title": "Week 4 – Remote Sensing and Policy (Urban Event Monitoring)",
+    "section": "Reflection",
+    "text": "Reflection\nThis week expanded my understanding of remote sensing applications beyond traditional environmental monitoring.\nI found it particularly valuable that SAR data can detect structural changes in urban areas, making it useful for dynamic and complex situations.\nHowever, one limitation is that SAR change detection identifies anomalous surface changes but cannot determine the exact cause without additional data or validation.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4 – Remote Sensing and Policy (Urban Event Monitoring)</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#practical-reflection",
+    "href": "week4.html#practical-reflection",
+    "title": "Week 4 – Remote Sensing and Policy (Urban Event Monitoring)",
+    "section": "Practical Reflection",
+    "text": "Practical Reflection\nThe practical demonstrated how change detection workflows can be implemented using real satellite data.\nIt highlighted the importance of data selection, filtering, and thresholding in producing meaningful outputs.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4 – Remote Sensing and Policy (Urban Event Monitoring)</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#future-application",
+    "href": "week4.html#future-application",
+    "title": "Week 4 – Remote Sensing and Policy (Urban Event Monitoring)",
+    "section": "Future Application",
+    "text": "Future Application\nThis approach could be extended by integrating additional datasets, such as optical imagery or higher-resolution data, to improve interpretation.\nIt has strong potential for applications in disaster response, urban resilience, and real-time monitoring.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 4 – Remote Sensing and Policy (Urban Event Monitoring)</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html",
+    "href": "week5.html",
+    "title": "Week 5 – Temperature and Urban Heat",
+    "section": "",
+    "text": "Overview\nThis week focused on thermal remote sensing and the measurement of land surface temperature (LST). The lecture introduced how satellite data can be used to analyse temperature patterns in urban environments, particularly in relation to the urban heat island effect.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 5 – Temperature and Urban Heat</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#key-concepts",
+    "href": "week5.html#key-concepts",
+    "title": "Week 5 – Temperature and Urban Heat",
+    "section": "Key Concepts",
+    "text": "Key Concepts\nA key distinction introduced this week is between land surface temperature (LST) and air temperature.\n\nLST measures the temperature of the Earth’s surface as observed by a satellite sensor\n\nAir temperature is measured near the ground and influenced by atmospheric conditions\n\nThermal remote sensing allows us to estimate LST using thermal infrared bands, such as those available in Landsat data.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 5 – Temperature and Urban Heat</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#method",
+    "href": "week5.html#method",
+    "title": "Week 5 – Temperature and Urban Heat",
+    "section": "Method",
+    "text": "Method\nIn this practical, Landsat 8/9 Collection 2 Level 2 data was used to derive land surface temperature for Tehran during the summer period.\nA cloud mask was applied to remove low-quality pixels, and a median composite was generated. The thermal band (ST_B10) was then converted to degrees Celsius using the official scaling factors provided by USGS.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 5 – Temperature and Urban Heat</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#results",
+    "href": "week5.html#results",
+    "title": "Week 5 – Temperature and Urban Heat",
+    "section": "Results",
+    "text": "Results\n\n\n\nTehran LST\n\n\nFigure 1. Summer land surface temperature (LST) in Tehran derived from Landsat 8/9 data.\nThe map shows clear spatial variation in temperature across the city. Urban areas appear significantly warmer than surrounding mountainous regions, indicating a strong urban heat island effect.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 5 – Temperature and Urban Heat</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#application",
+    "href": "week5.html#application",
+    "title": "Week 5 – Temperature and Urban Heat",
+    "section": "Application",
+    "text": "Application\nThermal remote sensing can support urban policy and planning in several ways:\n\nidentifying urban heat hotspots\n\ninforming green infrastructure planning\n\nsupporting climate adaptation strategies\n\nBy providing spatially continuous temperature data, remote sensing enables cities to better understand and respond to heat-related risks.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 5 – Temperature and Urban Heat</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#reflection",
+    "href": "week5.html#reflection",
+    "title": "Week 5 – Temperature and Urban Heat",
+    "section": "Reflection",
+    "text": "Reflection\nThis week expanded my understanding of remote sensing beyond visible imagery to include thermal processes.\nI found it particularly interesting that satellite data can be used to estimate surface temperature at a city-wide scale. The distinction between LST and air temperature is also important, as they represent different environmental processes.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 5 – Temperature and Urban Heat</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#practical-reflection",
+    "href": "week5.html#practical-reflection",
+    "title": "Week 5 – Temperature and Urban Heat",
+    "section": "Practical Reflection",
+    "text": "Practical Reflection\nThe practical demonstrated how relatively simple workflows can produce meaningful environmental insights.\nCompared to previous weeks, the focus was less on complex processing and more on interpreting results in an urban context.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 5 – Temperature and Urban Heat</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#limitations",
+    "href": "week5.html#limitations",
+    "title": "Week 5 – Temperature and Urban Heat",
+    "section": "Limitations",
+    "text": "Limitations\nOne limitation is that land surface temperature does not directly represent human thermal comfort, which depends on additional factors such as humidity and wind.\nIn addition, the spatial resolution of Landsat (30 m) may not capture fine-scale urban variations.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 5 – Temperature and Urban Heat</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#future-application",
+    "href": "week5.html#future-application",
+    "title": "Week 5 – Temperature and Urban Heat",
+    "section": "Future Application",
+    "text": "Future Application\nThis approach could be extended by combining LST with vegetation indices (e.g. NDVI) to better understand the relationship between green space and urban temperature.\nIt also has strong potential for applications in climate adaptation and urban sustainability planning.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 5 – Temperature and Urban Heat</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html",
+    "href": "week6.html",
+    "title": "Week 6 – Google Earth Engine and Basic Image Analysis",
+    "section": "",
+    "text": "Overview\nThis week introduced Google Earth Engine (GEE) as a cloud-based platform for remote sensing analysis. The focus was on learning the basic workflow of loading, filtering, compositing, clipping, and visualising satellite imagery.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 – Google Earth Engine and Basic Image Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#key-concepts",
+    "href": "week6.html#key-concepts",
+    "title": "Week 6 – Google Earth Engine and Basic Image Analysis",
+    "section": "Key Concepts",
+    "text": "Key Concepts\nUnlike previous practicals that relied on local processing, GEE allows satellite data to be processed remotely on Google’s servers. This makes it easier to work with large Earth observation datasets efficiently.\nThe main concepts covered this week included:\n\nloading image collections\nfiltering by date, cloud cover, and location\ncreating composite images\nclipping data to a study area\napplying simple band math such as NDVI",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 – Google Earth Engine and Basic Image Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#method",
+    "href": "week6.html#method",
+    "title": "Week 6 – Google Earth Engine and Basic Image Analysis",
+    "section": "Method",
+    "text": "Method\nIn this practical, Landsat 8 surface reflectance data was used to analyse Tehran.\nThe workflow involved:\n\nfiltering imagery by date and cloud cover\ngenerating a median composite\nclipping the imagery to the study area\nvisualising the RGB composite\ncalculating NDVI using the near-infrared and red bands",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 – Google Earth Engine and Basic Image Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#results",
+    "href": "week6.html#results",
+    "title": "Week 6 – Google Earth Engine and Basic Image Analysis",
+    "section": "Results",
+    "text": "Results\n\n\n\nTehran RGB\n\n\nFigure 1. Median Landsat RGB composite of Tehran clipped to the study area.\nThe RGB composite provides a clear overview of the city’s urban structure and surrounding mountainous landscape.\n\n\n\nTehran NDVI\n\n\nFigure 2. NDVI derived from Landsat data showing vegetation distribution across Tehran.\nThe NDVI image highlights greener areas within and around the city, making it easier to identify vegetation compared with the RGB image alone.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 – Google Earth Engine and Basic Image Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#application",
+    "href": "week6.html#application",
+    "title": "Week 6 – Google Earth Engine and Basic Image Analysis",
+    "section": "Application",
+    "text": "Application\nThis workflow demonstrates how GEE can support rapid urban environmental analysis. NDVI is particularly useful for identifying vegetation cover, which can support studies of green space, urban ecology, and environmental planning.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 – Google Earth Engine and Basic Image Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#reflection",
+    "href": "week6.html#reflection",
+    "title": "Week 6 – Google Earth Engine and Basic Image Analysis",
+    "section": "Reflection",
+    "text": "Reflection\nThis week helped me understand the logic of working with image collections in GEE. Compared with previous workflows, I found GEE efficient for loading and processing large datasets.\nIt was also useful to see how simple band math can transform a basic satellite image into a more interpretable environmental indicator.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 – Google Earth Engine and Basic Image Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#limitations",
+    "href": "week6.html#limitations",
+    "title": "Week 6 – Google Earth Engine and Basic Image Analysis",
+    "section": "Limitations",
+    "text": "Limitations\nAlthough NDVI is useful for mapping vegetation, it does not capture all aspects of environmental quality. It is also sensitive to the time period selected and the quality of the input imagery.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 – Google Earth Engine and Basic Image Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#future-application",
+    "href": "week6.html#future-application",
+    "title": "Week 6 – Google Earth Engine and Basic Image Analysis",
+    "section": "Future Application",
+    "text": "Future Application\nThis workflow could be extended to more advanced analysis, including classification, change detection, or linking vegetation patterns to temperature and urban heat.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 – Google Earth Engine and Basic Image Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html",
+    "href": "week7.html",
+    "title": "Week 7 – Image Classification",
+    "section": "",
+    "text": "Overview\nThis week introduced supervised classification using Google Earth Engine (GEE). The aim was to classify land cover types based on training data and spectral information from satellite imagery.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 7 – Image Classification</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#key-concepts",
+    "href": "week7.html#key-concepts",
+    "title": "Week 7 – Image Classification",
+    "section": "Key Concepts",
+    "text": "Key Concepts\nClassification is a process of assigning each pixel in an image to a specific land cover class. In supervised classification, training samples are manually defined and used to train a model.\nRandom Forest was used in this practical, which is an ensemble machine learning method that combines multiple decision trees to improve classification performance.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 7 – Image Classification</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#method",
+    "href": "week7.html#method",
+    "title": "Week 7 – Image Classification",
+    "section": "Method",
+    "text": "Method\nSentinel-2 surface reflectance data was used for classification.\nThe workflow included:\n\nloading Sentinel-2 imagery\n\nfiltering by date, location, and cloud cover\n\ngenerating a median composite\n\ncreating training samples (urban, vegetation, water)\n\nextracting spectral values from the image\n\ntraining a Random Forest classifier\n\napplying the classifier to the full image",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 7 – Image Classification</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#results",
+    "href": "week7.html#results",
+    "title": "Week 7 – Image Classification",
+    "section": "Results",
+    "text": "Results\n\n\n\nClassification Map\n\n\nFigure 1. Land cover classification of Tehran using Random Forest (urban = red, vegetation = green, water = blue).\nThe classification map distinguishes between urban areas, vegetation, and water. Urban areas dominate the central region, while vegetation is more prominent on the outskirts.\nHowever, a large proportion of areas classified as vegetation appear to correspond to agricultural land (cropland) rather than natural vegetation. This suggests that the classifier is capturing spectral similarities between vegetation types, but is unable to distinguish between different land use categories within the vegetation class.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 7 – Image Classification</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#application",
+    "href": "week7.html#application",
+    "title": "Week 7 – Image Classification",
+    "section": "Application",
+    "text": "Application\nImage classification is widely used in urban studies, including land use mapping, environmental monitoring, and change detection.\nThis method enables large-scale automated mapping of land cover, which can support urban planning and environmental policy.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 7 – Image Classification</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#reflection",
+    "href": "week7.html#reflection",
+    "title": "Week 7 – Image Classification",
+    "section": "Reflection",
+    "text": "Reflection\nThis week introduced machine learning concepts in remote sensing. I found it particularly useful to understand how training data influences classification results.\nThe results highlight that classification outputs are highly dependent on how training samples are defined. In this case, the vegetation class likely includes both natural vegetation and cropland, indicating that spectral similarity can limit the ability to distinguish land use types.\nThis demonstrates the importance of carefully designing training data and class definitions.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 7 – Image Classification</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#limitations",
+    "href": "week7.html#limitations",
+    "title": "Week 7 – Image Classification",
+    "section": "Limitations",
+    "text": "Limitations\nThe classification accuracy depends heavily on the quality and quantity of training data. Misclassification can occur if classes are not well separated.\nAdditionally, spectral similarity between different land cover types (e.g. cropland and natural vegetation) can reduce model performance.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 7 – Image Classification</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html#future-work",
+    "href": "week7.html#future-work",
+    "title": "Week 7 – Image Classification",
+    "section": "Future Work",
+    "text": "Future Work\nFuture work could include:\n\nintroducing additional classes (e.g. separating cropland and natural vegetation)\n\nincreasing the number and quality of training samples\n\nperforming accuracy assessment using validation data\n\ncomparing different classifiers (e.g. SVM, CART)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week 7 – Image Classification</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html",
+    "href": "week8.html",
+    "title": "Week 8 – Temperature and Sub-pixel Analysis",
+    "section": "",
+    "text": "Overview\nThis week focused on analysing urban environments using spectral indices and sub-pixel classification techniques in Google Earth Engine.\nThe aim was to explore how mixed land cover within a single pixel can be better represented, particularly in complex urban landscapes.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 8 – Temperature and Sub-pixel Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html#key-concepts",
+    "href": "week8.html#key-concepts",
+    "title": "Week 8 – Temperature and Sub-pixel Analysis",
+    "section": "Key Concepts",
+    "text": "Key Concepts\nSub-pixel analysis (spectral unmixing) estimates the proportion of different land cover types within a single pixel.\nUnlike traditional classification, which assigns one class per pixel, this method captures mixed surfaces such as urban areas containing vegetation or bare soil.\nNDVI was also used to identify vegetation patterns and support interpretation.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 8 – Temperature and Sub-pixel Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html#method",
+    "href": "week8.html#method",
+    "title": "Week 8 – Temperature and Sub-pixel Analysis",
+    "section": "Method",
+    "text": "Method\nSentinel-2 surface reflectance imagery was used.\nThe workflow included:\n\nloading Sentinel-2 data\nfiltering by date, location, and cloud cover\ngenerating a median composite\nvisualising RGB imagery\ncalculating NDVI\ndefining endmembers (urban, vegetation, water, bare earth)\nextracting spectral signatures\napplying spectral unmixing\nconstraining fractions to ensure valid outputs",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 8 – Temperature and Sub-pixel Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html#results",
+    "href": "week8.html#results",
+    "title": "Week 8 – Temperature and Sub-pixel Analysis",
+    "section": "Results",
+    "text": "Results\n\nRGB Composite\n\n\n\nRGB\n\n\nFigure 1. True colour RGB composite of Tehran.\nThe RGB image shows clear urban structure, with dense built-up areas concentrated in the city centre and more heterogeneous land cover at the outskirts.\n\n\n\nNDVI\n\n\n\nNDVI\n\n\nFigure 2. NDVI map highlighting vegetation distribution.\nVegetation is mainly located on the outskirts of the city. In this context, many high NDVI areas likely represent cropland rather than natural vegetation.\n\n\n\nSub-pixel Classification (Constrained)\n\n\n\nFractions\n\n\nFigure 3. Sub-pixel land cover fractions derived using spectral unmixing.\nThe constrained fraction map shows a clear spatial pattern of land cover distribution. Urban areas dominate the central region of Tehran (red), while vegetation (green) is more prominent in surrounding agricultural areas. Water bodies (blue) are clearly identifiable.\nCompared to unconstrained outputs, this result is more realistic, as fractions are forced to sum to one and negative values are avoided.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 8 – Temperature and Sub-pixel Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html#application",
+    "href": "week8.html#application",
+    "title": "Week 8 – Temperature and Sub-pixel Analysis",
+    "section": "Application",
+    "text": "Application\nSub-pixel analysis is particularly useful in urban environments where land cover is highly mixed.\nIt allows for:\n\nidentifying urban intensity\ndetecting green infrastructure\nsupporting urban planning and sustainability analysis\n\nThis approach is valuable for understanding urban form beyond simple classification.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 8 – Temperature and Sub-pixel Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html#reflection",
+    "href": "week8.html#reflection",
+    "title": "Week 8 – Temperature and Sub-pixel Analysis",
+    "section": "Reflection",
+    "text": "Reflection\nThis week introduced a more advanced approach to classification. I found sub-pixel analysis particularly insightful, as it better represents the complexity of urban environments.\nIt highlighted how traditional classification may oversimplify land cover, especially in areas with mixed surfaces.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 8 – Temperature and Sub-pixel Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html#limitations",
+    "href": "week8.html#limitations",
+    "title": "Week 8 – Temperature and Sub-pixel Analysis",
+    "section": "Limitations",
+    "text": "Limitations\nThe results depend heavily on the selection of endmembers. If training areas are not representative, the fractions may be biased.\nAdditionally, spectral similarity between urban surfaces and bare land can lead to overestimation of urban fractions, especially in arid environments like Tehran.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 8 – Temperature and Sub-pixel Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html#future-work",
+    "href": "week8.html#future-work",
+    "title": "Week 8 – Temperature and Sub-pixel Analysis",
+    "section": "Future Work",
+    "text": "Future Work\nFuture improvements could include:\n\nusing additional spectral indices to improve separation\nincorporating higher-resolution data\ntesting alternative unmixing approaches\nvalidating results with ground truth data",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 8 – Temperature and Sub-pixel Analysis</span>"
+    ]
+  }
+]

@@ -43,7 +43,7 @@ The workflow included:
 
 ### RGB Composite
 
-![RGB](week6_rgb.png)
+![RGB](image/week6_rgb.png)
 
 **Figure 1.** True colour RGB composite of Tehran.
 
@@ -53,7 +53,7 @@ The RGB image shows clear urban structure, with dense built-up areas concentrate
 
 ### NDVI
 
-![NDVI](week6_ndvi.png)
+![NDVI](image/week6_ndvi.png)
 
 **Figure 2.** NDVI map highlighting vegetation distribution.
 
